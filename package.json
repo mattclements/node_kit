@@ -1,0 +1,31 @@
+{
+  "name": "kit",
+  "version": "1.0.0",
+  "description": "Kit Compiler in Node.js",
+  "license": "MIT",
+  "author": "Matt Clements <matt@mattclements.co.uk>",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattclements/node_kit.git"
+  },
+  "keywords": [
+    "kit",
+    "codekit"
+  ],
+  "dependencies" : {
+    "growl"   :  ">=1.7.0"
+  },
+  "bundledDependencies": [
+    "growl"
+  ],
+  "engines": {
+    "node": ">=0.6"
+  },
+  "contributors": [
+    {
+      "name": "Bryan D K Jones",
+      "email": "bryan@incident57.com"
+    }
+  ]
+}

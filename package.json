@@ -5,23 +5,34 @@
   "license": "MIT",
   "author": "Matt Clements <matt@mattclements.co.uk>",
   "main": "./lib/index.js",
+
   "repository": {
     "type": "git",
     "url": "https://github.com/mattclements/node_kit.git"
   },
+
   "keywords": [
     "kit",
     "codekit"
   ],
+
   "dependencies" : {
-    "growl"   :  ">=1.7.0"
+    "growl"   :  ">=1.7.0",
+    "walkdir" :  ">=0.0.7"
   },
-  "bundledDependencies": [
-    "growl"
-  ],
+
+  "devDependencies": {
+    "jshint": "0.5.x"
+  },
+
   "engines": {
     "node": ">=0.6"
   },
+
+  "scripts": {
+    "test": "./test.sh"
+  },
+
   "contributors": [
     {
       "name": "Bryan D K Jones",

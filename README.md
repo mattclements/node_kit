@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mattclements/node_kit.png?branch=master)](https://travis-ci.org/mattclements/node_kit)
+
 # Kit Compiler written in Node.js
 
 Kit Compiler written in Node.js, extracted from the Open Sourced [Kit Example](https://github.com/bdkjones/Kit).
